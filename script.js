@@ -10,9 +10,9 @@ function dataBases(data) {
             <td>${element.id}</td>
             <td>${element.name}</td>
             <td>${element.username}</td>
-            <td>${element.addres}</td>
-            <td>${element.compani}</td>
-        </tr>`
+            <td>${element.address.street}</td>
+            <td> ${element.company.name}</td>
+        </tr> `
             });
             document.querySelector('tbody').innerHTML = tabel;
         })
